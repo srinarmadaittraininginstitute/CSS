@@ -1,0 +1,493 @@
+CSS
+------
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+
+Why to Use CSS?
+------------------------
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+CSS Solved a Big Problem
+HTML was NEVER intended to contain tags for formatting a web page. HTML was created to describe the content of a web page, like:
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+To solve this problem, the World Wide Web Consortium (W3C) created CSS. CSS removed the style formatting from the HTML page. CSS Saves a Lot of Work. The style definitions are normally saved in external .css files. With an external stylesheet file, you can change the look of an entire website by changing just one file!
+
+CSS Comments
+---------------------
+Comments are used to explain the code, and may help when you edit the source code at a later date. Comments are ignored by browsers. A CSS comment is placed inside the <style> element, and starts with /* and ends with */:
+
+css styles
+------------------
+1.Inline styles
+2.Internal styles
+3.External styles
+
+The style Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Example
+<p style="color:red;">This is a red paragraph.</p>
+
+
+Internal styles
+--------------------
+Intenal Styles are define with the <style> element, inside the <head> section of an html page.
+
+
+css syntax
+------------
+selector{ property:value;property:value;}
+
+Each declaration includes a css property  name and value , separated by colon.The declaration block contain one or more declarations separated by semicolons.A css declaration always end with a semicolon, and declaration block are surrounded by curly braces.
+Note:Here selector means html tags.
+
+
+How to add css in html document
+----------------------------------
+<html>
+<head>
+<style>
+</style>
+</head>
+
+<body>
+</body>
+
+</html>
+
+------------------------------------
+
+Type Of selector
+---------------------
+1.element selector or type selector
+2.class selecor
+3.id selector
+4.child selector 
+5.universal selector
+6.attribute selector
+7.advanced child selector............
+
+Element selector
+-------------------
+The element selector styles  elements based on the selected element name.
+ 
+Css Font property
+---------------------
+font-family: use the property to cange font face.
+font-family:any font name.
+
+font-weight: use the property to bold the text.
+font-weight:normal|bold|bolder|light|lighter
+
+font-variant: normal|small-caps|initial|inherit
+
+font-style:use the property to italic the text.
+font-style:normal|italic
+
+Font-size: to change font size.
+Font-size: 30px|40px........
+
+Css text property
+--------------------
+text-align: use the property align the text.
+text-align:left|right|center|justify
+
+text-decoration: use the property underline the text.
+text-decoration:none|underline|overline|line-through
+
+Text-transform: use the property transfom the text.
+Text-transform: none|uppercase|lowercase|capitalize
+
+text-indent: use the property indentation of the first line.
+text-indent:any nymber with px.
+
+Word-spacing:use the property change space between words.
+Word-spacing:any nymber with px.
+
+letter-spacing:use the property use the property change space between letters.
+letter-spacing:any nymber with px.
+
+line-height:use the property increase the space between two lines.
+line-height:any number with px.
+
+color:use the property change text color.
+color:any color name.
+
+text-shadow:use the property to add shadow effect.
+text-shadow:h-shadow v-shadow blur-radius color.
+            5px 2px 4px red.
+
+
+
+Css background property
+---------------------------
+background-color: to change background color.
+background-color:any color name.
+
+background-image: to set the background-image.
+background-image:url("path").
+
+background-repeat: controal the repeatation of the image.
+background-repeat:repeat-x|repeat-y|no-repeat.
+
+background-position: controal the position of the image.
+background-position:top left|bottom right ...........
+
+background-attatchment:controal the scrolling of the image.
+background-attatchment:scroll|fixed.
+
+background shorthand property
+-------------------------------
+background:by using this property to add all poroperties at once.
+
+
+
+
+Css border property
+---------------------
+border-style: use the property to add border selected element.
+border-style:none|dotted|dashed|double|solid|groove|ridge....
+
+border-top-style:changes the style of top border.
+border-right-style:changes the style of right border.
+border-bottom-style:changes the style of bottom border.
+border-left-style:changes the style of left border.
+----------------------------------------------------------
+
+border-color:use the property to change border color.
+border-color:any color name.
+
+border-top-color:changes the color of top border.
+border-right-color:changes the color of right border.
+border-bottom-color:changes the color of bottom border.
+border-left-color:changes the color of left border.
+
+-----------------------------------------------------------
+
+border-width:use the property to change border width.
+border-width:any number.
+
+border-top-width:changes width of the top border.
+border-right-width:changes the width of right border.
+border-bottom-width:changes the width of bottom border.
+border-left-width:changes the width of left border.
+
+
+border-shorthand property
+-----------------------------
+to add all properties at once.
+border:width style color;
+border:3px solid red;
+
+---------------------------------------------------------------
+
+border-radius:use the property to create rounded corners.
+border-radius:any number with px;
+
+border-top-left-radius:changes radius of the top left border.
+border-top-right-radius:changes radius of the top right border.
+border-bottom-left-radius:changes radius of the bottom leftborder.
+border-bottom-right-radius:changes radius of the bottom right border.
+
+
+
+Css padding Property
+------------------------
+padding: use the property change space between content and border.
+padding:any number with px.
+
+padding-top: changes padding of the top position.
+padding-right:changes padding of the right position.
+padding-bottom:changes padding of the bottom position.
+padding-left:changes padding of the left position.
+
+padding shorthand property;
+--------------------------------------------
+
+padding:one value(change 4sides)
+padding:15px;
+
+padding:two values(top and bottom, right and left)
+padding:15px 10px;
+
+padding:threes values(top , right and left,bottom)
+padding:15px 8px 2px ;
+
+padding:four values(top ,  right ,bottom, left)
+padding:15px 4px 8px 10px;
+           
+
+Css margin Property
+------------------------
+Margin : use the property change space between two elements.
+Margin :any number with px.
+
+Margin more property
+-----------------------
+Margin-top:changes margin of the top position.
+Margin-right:changes margin of the right position.
+Margin-bottom:changes margin of the bottom position.
+Margin-left:changes margin of the left position.
+
+marginshort hand property
+----------------------------
+margin:top right bottom left
+margin:10px 15px 20px 12px
+
+ Css link property  (pseudo selectors)
+-------------------------------
+Use the property to change link color.
+
+a:link=unvisited link.(default link color)
+a:hover=when user mouse over it.
+a:active=when user clicked moment
+a:visited=when visited link.
+
+Css list property
+----------------------
+list-style-type:Use the property  to add bullets or numbers at line starting. 
+
+list-style-type:
+for ul:none|disc|circle|square.
+for ol:none|decimal|lower-roman|upper-roman|lower-alpha.
+
+list-style-image:Use the property to add bullets as picture type.
+list-style-image:url("path").
+
+list-style-position: Use the property change position.
+list-style-position:none|inside|outside.
+
+shorthand property
+-------------------------
+list-style:set all list properties at once.
+
+
+
+Css table property
+--------------------------
+border: Use the property to change border style.
+border:table, td, th{border:1px solid grey}
+
+border-collapse:Use the property collapse or separate border.
+border-collapse:collapse, separate.
+
+border-spacing:Use the property change border space.
+border-spacing:any number with px.
+width,height:Use the property change width, height.
+text-align, vertical-align: Use the property align the text.
+
+
+Class selector
+------------------------
+Class selector styles we can specified class elements only.
+Use class selctor in html document multiple times.
+Class selector define with dot(.) symbol.
+
+Id selector
+--------------------------
+Id selector styles we can specified Id elements only.
+Use Id selctor in html document single time only.
+Id selector define with "#" symbol.
+
+
+Universal selector
+--------------------------
+
+Universalselector  styles all html elements.
+Universal  define with "*" symbol
+
+Child selector
+-------------------
+Child selector styles we can specified child elements only.
+Child selector define with ">" symbol.
+
+Advanced Child selector
+---------------------------
+First-line:we can style only first line.
+First-letter:we can style only first letter.
+First-child:we can style only first element.
+Last-child:we can style only last element.
+nth-child:we can style particular first element.
+even:we can style only even elements.
+odd:we can style only odd elements.
+:before :before add the content.
+:after :After add the content.
+::selection.
+
+
+
+Gradients
+--------------------
+css3 defines two types of gradients:
+1.linear gradient
+2.radial gradient
+
+linear gradient
+-----------------
+to create a linear gradient you must define at least two colors.
+syntax: background:linear-gradient(direction,color1,color 2).
+
+
+direction
+-----------
+to change direction also. by default direction is a 
+top to bottom.
+ex:background:linear-gradient(left, red, yellow)
+
+Angles
+------------
+ex:background:linear-gradient(-90deg, red, yellow)
+
+multi colors
+---------------
+ex:background:linear-gradient(left, red,blue,green, yellow)
+
+Transparency
+--------------------
+css3 gradients also supports transparency, which can be used to create fading effects.
+To create Transparency , we can use  rgba() function. The last parameter in rgba() function  can be  value  from 0 to 1.
+0 indicates full transparency , 
+1 indicates full color.
+
+ex: background:linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)).
+
+Repeating  a linear-gradient
+------------------------------
+Repeating  a linear-gradient used to repeat linear gradients.
+ex:background:repeating-linear-gradient(red, yellow 10%, green 20%).
+
+Inline styles
+---------------------------------
+
+Css inline styles specified in html open tag by using style attribute.
+ex:<p style="color:red; text-align:justify; border:5px solid grey; padding:10px;">some text</p>
+
+The z-index Property
+------------------------------
+When elements are positioned, they can overlap other elements. The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others). An element can have a positive or negative stack order:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<img src="1.jpg" width="100" height="140">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+</body>
+</html>
+
+
+External Styles
+------------------------
+Css external  styles specified in css file.
+To save css file must be (".css") extension.
+To create references between css, html files by using link tag.
+External styles specified in head section . 
+ex:<link rel="stylesheet" type="text/css"  href="a.css">
+
+CSS3 Introduced Media Queries
+Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.
+
+Media queries can be used to check many things, such as:
+
+width and height of the viewport
+width and height of the device
+orientation (is the tablet/phone in landscape or portrait mode?)
+resolution
+Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).
+
+Media Query Syntax
+A media query consists of a media type and can contain one or more expressions, which resolve to either true or false.
+
+@media not|only mediatype and (expressions) {
+  CSS-Code;
+}
+The result of the query is true if the specified media type matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules.
+
+Unless you use the not or only operators, the media type is optional and the all type will be implied.
+You can also have different stylesheets for different media:
+<link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+
+Media Queries Simple Examples
+One way to use media queries is to have an alternate CSS section right inside your style sheet.
+
+The following example changes the background-color to lightgreen if the viewport is 480 pixels wide or wider (if the viewport is less than 480 pixels, the background-color will be pink):
+
+Example
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+The following example shows a menu that will float to the left of the page if the viewport is 480 pixels wide or wider (if the viewport is less than 480 pixels, the menu will be on top of the content):
+
+Example
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+CSS Flexbox Layout Module
+Before the Flexbox Layout module, there were four layout modes:
+
+Block, for sections in a webpage
+Inline, for text
+Table, for two-dimensional table data
+Positioned, for explicit position of an element
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+A flex container with three flex items:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Create a Flex Container</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
+</html>
+
+
+
