@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>CSS Internal Styles Id selector Program</title>
+		<style>
+			body
+			{
+			background-image:url("Images/1.png");
+			background-size:500px;
+			background-repeat:no-repeat;
+			background-position:bottom left;
+			}
+			div
+			{
+				width:100px;		
+				height:100px;	
+				margin:10px;
+				float:left;
+			}
+			div#o
+			{
+				background:url("Images/2.png");
+			}
+			div#t
+			{
+				border-style:dotted;		
+				border-color:pink;
+				border-width:10px;
+			}
+			div#th
+			{
+			border-top-style:dashed;
+			border-top-width:10px;
+			border-top-left-radius:5px;
+			border-right-style:double;
+			border-right-width:5px;
+			border-top-right-radius:10px;
+			border-bottom-style:groove;
+			border-bottom-width:2px;
+			border-bottom-left-radius:50px;
+			border-left-style:ridge;
+			border-left-width:1px;
+			border-bottom-right-radius:30px;			
+			}
+			div#f
+			{
+			border:3px double red;
+			border-radius:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="o"></div>	
+		<div id="t"></div>	
+		<div id="th"></div>	
+		<div id="f"></div>	
+	</body>
+</html>

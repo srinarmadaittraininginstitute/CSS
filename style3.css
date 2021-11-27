@@ -1,0 +1,21 @@
+*
+{
+	background-color:#abcdef;
+	margin:0px;
+}
+.one
+{
+	background-color:red;
+}
+span.one
+{
+	border:5px solid blue;
+}
+p.one
+{
+	border:5px solid green;	
+}
+#t
+{
+	letter-spacing:20px;
+}

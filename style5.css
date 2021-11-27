@@ -1,0 +1,41 @@
+ul > li > ul
+{
+	border:1px solid red;
+}
+ul li ul li
+{
+	background-color:pink;
+}
+p:First-line
+{
+	color:red;
+}
+p:First-letter
+{
+	font-size:50px;
+}
+li:First-child
+{
+	letter-spacing:10px;		
+}
+li:last-child
+{
+	color:blue;
+}
+li:nth-child(even)
+{
+	text-decoration:underline;
+}
+li:nth-child(odd)
+{
+	text-transform:uppercase;
+}
+p::before
+{
+content:"hi";
+color:green;
+}
+p::after
+{
+content:"bye";
+}
