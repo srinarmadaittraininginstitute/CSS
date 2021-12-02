@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>DIV Example</title>
+		<style>			
+			div
+			{
+				height:100px;
+				width:100px;
+				border:1px solid red;	
+			}
+			#div1 {transition-timing-function: linear;}					#div1:hover {
+				  width: 300px;
+			}			
+			#div2 {
+			  transition-property: width;
+			  transition-duration: 2s;
+			  transition-delay: 1s;
+			transition-timing-function: ease;
+			}
+			#div2:hover
+			{
+				width: 300px;				
+			}			
+				
+		#div3 {
+			  transition-property: width;
+			  transition-duration: 2s;
+			  transition-delay: 1s;
+			transition-timing-function: ease-in;
+			}
+			#div3:hover
+			{
+				width: 300px;				
+			}
+			/*#div4 {transition-timing-function: ease-out;}
+			#div5 {transition-timing-function: ease-in-out;}*/</style>
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		<div id="div3"></div>
+		<!-- <div id="div4"></div>
+		<div id="div5"></div> -->
+	</body>
+</html>

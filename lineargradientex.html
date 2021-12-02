@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>CSS Linear Gradient Example</title>
+		<style>
+			div
+			{
+				width:200px;
+				height:200px;
+				border:2px solid green;
+			}
+			#d1
+			{
+		background:linear-gradient(to left,red,green);
+			}
+			#d2
+			{
+		background:linear-gradient(to right,red,green);
+			}
+			#d3
+			{
+		background:linear-gradient(to top,red,green);
+			}
+			#d4
+			{
+		//background:linear-gradient(to bottom,red,green);
+	background:linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+			}
+			#d5
+			{
+	//	background:linear-gradient(to right,red,green,blue,cyan);
+		background:linear-gradient(-90deg,red,green,blue,cyan);
+			}			
+			#d6
+			{
+	background:repeating-linear-gradient(red, yellow 10%, green 20%);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+		<div id="d4"></div>
+		<div id="d5"></div>
+		<div id="d6"></div>
+	</body>
+</html>
