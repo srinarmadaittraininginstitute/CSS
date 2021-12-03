@@ -1,34 +1,47 @@
 <html>
 	<head>
-		<title>Radial Gradient Example</title>
+		<title>CSS Radial Gradient Example</title>
 		<style>
-		#o
-		{
-		background:radial-gradient(red,yellow,blue);
-		}
-		#t
-		{
-		background:radial-gradient(red, yellow);
-		}
-		#th
-		{
-		background:radial-gradient(red,blue,green, yellow);
-		}
-		#fo
-		{
-	background:radial-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
-		}
-		#fi
-		{
+			div
+			{
+				width:200px;
+				height:200px;
+				border:2px solid green;
+			}
+			#d1
+			{
+		background:radial-gradient(red 40%,green);
+			}
+			#d2
+			{
+		background:radial-gradient(red,green 50%);
+			}
+			#d3
+			{
+		background:radial-gradient(red,green);
+			}
+			#d4
+			{
+		//background:radial-gradient(red,green);
+	background:radial-gradient( rgba(255,0,0,0), rgba(255,0,0,1));
+			}
+			#d5
+			{
+	//	background:radial-gradient(red,green,blue,cyan);
+		background:radial-gradient(red,green,blue,cyan);
+			}			
+			#d6
+			{
 	background:repeating-radial-gradient(red, yellow 10%, green 20%);
-		}
+			}
 		</style>
 	</head>
 	<body>
-		<p id="o">Welcome. When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process</p>
-	<p id="t">Welcome. When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process</p>
-	<p id="th">Welcome. When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process</p>
-	<p id="fo">Welcome. When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process</p>
-<p id="fi">Welcome. When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process</p>
+		<div id="d1"></div>
+		<div id="d2"></div>
+		<div id="d3"></div>
+		<div id="d4"></div>
+		<div id="d5"></div>
+		<div id="d6"></div>
 	</body>
 </html>
